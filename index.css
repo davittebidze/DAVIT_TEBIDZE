@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --headerColor: #7a7a7a;
+    --bgColor: #848484;
+    --TextColor: #12372A;
+    --sectionColor: #000000;
+}
+
+
+body {
+    background-color: rgb(35, 35, 35)188, 187, 187) (--bgColor);
+}
+
+
+
+header {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    background-color: rgb(28, 28, 28) (--headerColor);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 3em;
+    background: rgb(0, 0, 0) (transparent 0%, transparent 100%), url('https://media.istockphoto.com/id/1061398870/vector/silver-glitter-shiny-vector-background.jpg?s=612x612&w=0&k=20&c=qSQ774l-VWUb16c3MkKgk6Axb_VLAwpi4Ju3gS5ri2s=');
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 10px;
+    text-shadow: 0 0 0px rgb(0, 0, 0);
+}
+
+
+
+
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: var(--TextColor);
+    font-size: 1.5rem;
+}
+
+
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--TextColor);
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+header nav ul li a:hover {
+    color: rgb(27, 27, 27)
+}
+
+.active {
+    color: rgb(0, 0, 0);
+}
+
+
+main {
+    min-height: 90vh;
+}
+
+
+
+footer {
+    padding: 8px;
+    background-color: rgb(181, 181, 181) (--sectionColor);
+    color: rgb(29, 29, 29) (--TextColor);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left {
+    width: 10%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right {
+    width: 30%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 10px;
+    margin-left: 20px;
+
+}
+
+
+
+.left figure {
+    width: 60px;
+    height: 60px;
+}
+
+
+.left figure img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.left figure img:hover {
+    transform: scale(1.2);
+}
+
+.mail {
+    width: 100px !important;
+    height: 60px;
+}
+
+
+main {
+    margin-top: 100px;
+}
+
+main h2 {
+    text-align: center;
+    color: var(--TextColor);
+    text-shadow: 0 0 2px black;
+    font-size: 35px;
+    padding: 20px;
+}
+
+
+
+main .projects {
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+
+
+.projects article {
+    box-shadow: 0 0 20px black;
+    width: 300px;
+    flex-shrink: 1;
+    transition: transform 0.3s ease-in-out;
+    padding-bottom: 30px;
+}
+
+
+.projects article:hover {
+    transform: scale(1.1);
+}
+
+.projects article figure {
+    width: 100%;
+    height: 45%;
+}
+
+.projects article figure img {
+    width: 200%;
+    height: 150%;
+}
+
+.projects article h3, p {
+    padding: 10px;
+}
+
+.projects article h3 {
+    font-size: 23px;
+    color: var(--TextColor);
+    text-shadow: 0 0 5px gray;
+}
+
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.buttons button {
+    padding: 10px;
+    width: 45%;
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: var(--headerColor);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    opacity: 0.8;
+} 
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --headerColor: #a393eb;
+    --bgColor: #f5c7f7;
+    --TextColor: #27296d;
+    --sectionColor: #5e63b6;
+}
+
+
+main {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+
+article {
+    display: flex;
+    gap: 20px;
+}
+
+
+article p {
+    height: inherit;
+    padding: 10px;
+    font-weight: 500;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+} 
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgColor {
+    background-color: rgb(189, 189, 189)194, 194, 194) (--bgColor);
+}
+
+
+
+
+:root {
+    --headerColor: #2f2f2f;
+    --bgColor: #FBFADA;
+    --TextColor: #242424;
+    --sectionColor: #ADBC9F;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    min-height: 90vh;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+
+form {
+    /* border: 2px solid var(--headerColor); */
+    margin-top: 100px;
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    align-self: center;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px black;
+}
+
+form h2 {
+    padding-bottom: 20px;
+    color: rgb(58, 58, 58) r(--headerColor)
+}
+
+
+form div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+form div label {
+    font-size: 18px;
+    padding: 8px;
+    font-weight: bold;
+
+}
+
+
+form div input {
+    padding: 15px;
+    border: 1px solid var(--headerColor);
+    background-color: var(--sectionColor);
+    border-radius: 15px;
+    color: var(--TextColor);
+    font-size: bold;
+}
+
+
+form div input::placeholder {
+    color: rgb(44, 43, 43) (--TextColor);
+    margin-left: 10px;
+
+}
+
+form div input:focus {
+    outline: none;
+}
+
+
+textarea {
+    padding: 15px;
+    border: 1px solid rgb(234, 234, 234) (--headerColor);
+    background-color: rgb(212, 212, 212) (--sectionColor);
+    border-radius: 15px;
+    color: rgb(41, 41, 41) (--TextColor);
+    font-size: bold;
+}
+
+
+textarea::placeholder {
+    color: rgb(30, 30, 30) (--TextColor);
+    margin-left: 10px;
+
+}
+
+textarea:focus {
+    outline: none;
+}
+
+
+form button {
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: rgb(211, 211, 211)220, 218, 218) (--headerColor);
+    border: none;
+    border-radius: 15px;
+}
+
+
+.contact {
+    width: 35%;
+    padding: 12px;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+}
+
+.up {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+.up figure {
+    width: 60px;
+    height: 60px;
+    position: relative;
+
+}
+
+
+.up figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.mail {
+    width: 100px;
+    height: 60px;
+    margin-left: -20px;
+}
+
+
+.up figcaption {
+    white-space: nowrap;
+    position: absolute;
+    left: 120%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+}
+
+
+.mail figcaption {
+    left: 100%;
+}
+
+
+
+
+.down {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+
+}
+
+
+.down figure {
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+
+.down figure img {
+    width: 100%;
+    height: 100%;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.down figcaption {
+    white-space: nowrap;
+    position: absolute;
+    left: 120%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: bold;
+
+}
+
+
+.down figure img:hover {
+    transform: scale(1.2);
+} 
